@@ -17,7 +17,7 @@ HarmonyOS Next project requires API Level 10+ with Native Development Kit (NDK).
 
 - ✅ Android (ARM64, ARM32, x86_64)
 - ✅ iOS (ARM64, x86_64 simulator)
-- ✅ HarmonyOS Next (ARM64, ARM32)
+- ✅ HarmonyOS Next (ARM64, ARM32) - See [HarmonyOS Setup Guide](HARMONYOS.md)
 
 ### Add dependency
 
