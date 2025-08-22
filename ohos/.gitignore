@@ -1,0 +1,20 @@
+# HarmonyOS build artifacts
+build/
+.cxx/
+node_modules/
+oh_modules/
+
+# Generated files
+*.nnue
+*.har
+*.hap
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+*.log

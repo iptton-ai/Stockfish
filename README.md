@@ -11,6 +11,13 @@ The Stockfish Chess Engine for Flutter.
 ## Usages
 
 iOS project must have `IPHONEOS_DEPLOYMENT_TARGET` >=12.0.
+HarmonyOS Next project requires API Level 10+ with Native Development Kit (NDK).
+
+### Platform Support
+
+- ✅ Android (ARM64, ARM32, x86_64)
+- ✅ iOS (ARM64, x86_64 simulator)
+- ✅ HarmonyOS Next (ARM64, ARM32)
 
 ### Add dependency
 

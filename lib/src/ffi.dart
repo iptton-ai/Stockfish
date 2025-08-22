@@ -3,7 +3,19 @@ import 'dart:io';
 
 import 'package:ffi/ffi.dart';
 
-final _nativeLib = Platform.isAndroid
+// Platform detection helper for HarmonyOS
+bool get _isHarmonyOS {
+  try {
+    // HarmonyOS identification - check platform environment
+    return Platform.operatingSystem == 'ohos' || 
+           Platform.environment.containsKey('OHOS_SDK_HOME') ||
+           Platform.version.contains('HarmonyOS');
+  } catch (e) {
+    return false;
+  }
+}
+
+final _nativeLib = Platform.isAndroid || _isHarmonyOS
     ? DynamicLibrary.open('libstockfish.so')
     : DynamicLibrary.process();
 

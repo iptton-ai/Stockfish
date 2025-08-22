@@ -55,3 +55,9 @@
 ## [1.7.1] - 18 March 2025
 
 * Fix Stockfish 17 release
+
+## [1.8.0] - TBD
+
+* Add HarmonyOS Next platform support
+* Enhanced FFI platform detection for HarmonyOS
+* Native CMake build configuration for HarmonyOS

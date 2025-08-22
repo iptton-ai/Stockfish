@@ -26,3 +26,5 @@ flutter:
         pluginClass: StockfishPlugin
       ios:
         pluginClass: StockfishPlugin
+      ohos:
+        ffiPlugin: true
