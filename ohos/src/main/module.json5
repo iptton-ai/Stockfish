@@ -1,0 +1,12 @@
+{
+  "module": {
+    "name": "stockfish",
+    "type": "har",
+    "srcEntry": "./src/main/ets/index.ets",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ],
+    "deliveryWithInstall": true
+  }
+}

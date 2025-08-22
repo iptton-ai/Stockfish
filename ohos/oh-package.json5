@@ -1,0 +1,10 @@
+{
+  "name": "@ohos/stockfish",
+  "version": "1.7.1",
+  "description": "The Stockfish Chess Engine for HarmonyOS Next with Flutter support",
+  "main": "src/main/ets/index.ets",
+  "author": "Arjan Aswal",
+  "license": "GPL-3.0",
+  "dependencies": {},
+  "devDependencies": {}
+}
